@@ -6,13 +6,13 @@ public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("5: ");
+        System.out.print("Sheiyvane Pirveli Cifri: ");
         int num1 = scanner.nextInt();
 
-        System.out.print("4: ");
+        System.out.print("Sheiyvane Meore Cifri: ");
         int num2 = scanner.nextInt();
 
-        System.out.print("*: ");
+        System.out.print("Sheiyvane Operatori: ");
         char operator = scanner.next().charAt(0);
 
         int result = 0;

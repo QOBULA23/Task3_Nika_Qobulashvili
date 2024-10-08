@@ -10,9 +10,9 @@ public class Task5 {
         double totalWeight = 0;
 
         for (int i = 0; i < 5; i++) {
-            System.out.print("5 " + (i + 1) + ": ");
+            System.out.print("Input Score " + (i + 1) + ": ");
             scores[i] = scanner.nextDouble();
-            System.out.print("2 " + (i + 1) + ": ");
+            System.out.print("Input Score Weight " + (i + 1) + ": ");
             weights[i] = scanner.nextDouble();
 
             weightedSum += scores[i] * weights[i];
